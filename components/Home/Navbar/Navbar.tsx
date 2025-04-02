@@ -49,7 +49,7 @@ return <Link href={link.url} key={link.id}>
 </div>
 {/* Button */}
 <div className='flex items-center gap-4'>
-<button className='md:px-12 md:py-2.5 px-8 py-2.5 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg '>Book Now</button>
+<button className='md:px-12 md:py-2.5 lg:px-8 lg:py-2.5 px-4 py-2.5 text-black text-base bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg '>Book Now</button>
 {/* Burget Menu */}
 <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
 
